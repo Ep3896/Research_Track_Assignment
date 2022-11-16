@@ -39,7 +39,7 @@ $ python run.py assignment.py
 Flowchart of how the program works
 -----------------------------
  
-<img src="Flowchart.svg" alt="Flowchart" width="300"/>
+<img src="Flowchart.svg" alt="Flowchart" width="600"/>
 
 
 
