@@ -36,8 +36,8 @@ You can run the program with:
 $ python run.py assignment.py
 `
 
-Flowchart of how the program works:
-----------------------------------
+Flowchar of how the program works:
+-----------------------------
  
 <img src="Flowchart.svg" alt="Flowchart" width="300"/>
 
