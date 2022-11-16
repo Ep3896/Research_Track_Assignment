@@ -211,7 +211,7 @@ Implemented functions
    	return offset
 ```
 
- - `avoid_obstacles_silver()`:  Function for avoiding silver obstacles if a silver token is already taken. It is useful for avoiding that the robot drags aroung another silver token
+ - `avoid_obstacles_silver()`:  Function for avoiding silver obstacles if a silver token is already taken. It is useful for preventing the robot to drag around another silver token.
 
 ```	
 	d_th = 0.6
