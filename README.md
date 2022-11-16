@@ -34,9 +34,9 @@ You can run the program with:
 
 ```bash
 $ python run.py assignment.py
-`
+```
 
-Flowchar of how the program works:
+Flowchart of how the program works
 -----------------------------
  
 <img src="Flowchart.svg" alt="Flowchart" width="300"/>
