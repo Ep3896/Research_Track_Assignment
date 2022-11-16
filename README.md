@@ -182,7 +182,7 @@ Implemented functions
                     print("Maximum silver token number", max_silver_token_number)
 ```
                                              
- - `get_offset_silver:  Function for getting the offset value of a silver token 
+ - `get_offset_silver()':  Function for getting the offset value of a silver token 
  
  			Returns: offset                                        
 ```
