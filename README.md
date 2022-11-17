@@ -231,3 +231,14 @@ Implemented functions
 	
 		
 ```
+
+### **Possible limits of the code and further implementations** ###
+
+-----------------------------
+
+This code has implemented multiple features to avoid tricky situations , for example making up lists that provides a basic form of memory to the Robot in order to let it remember the silver token seen or grabbed and the golden token paired. Nevertheless, a problem could occure if, for istance, the Robot is firstly driven or turned to another point of the map: this could led the robot to see less silver token that the ones that are actually presents in the arena so the program could exits way before the robot has completed its task! 
+A possible solution would be putting the function "vision all silver" within the While brackets allowing the robot to repeatedly check for new silver elements and avoiding this issue. In this project this feature was not required but still it's good to be aware of this possibility for further implementations.
+Another way to icrease the quality of the code is by building up a new function to dodge golden tokens that are not yet paired (similar to the one that I have scripted to avoid the silver token ones): as the tokens in the current arena are so well devided from golden to silver , this function in this particular situation is not mandatory but what would happen if the robot is facing towards a silver object but a golden object is placed right in the trajectory of the robot? Well, the robot would simply ignore the golden token dragging it around and creating multiple problems. 
+Last but not least, the Robot seems to have a jerky gait, this is due to the fact that the movements instructions are exectued separetly and intermittantently: a possible soultion would be changing the structure of the code and maybe focusing more on while loops for movements only, that would theoretically speed up the process decreasing the time for the process to be completed. 
+
+
